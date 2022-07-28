@@ -14,6 +14,6 @@ class SeriesController extends Controller
             'Loki',
             'Cobra Kai'
         ];
-        return view('listar-series')->with('series', $series);
+        return view('series.index')->with('series', $series);
     }
 }
